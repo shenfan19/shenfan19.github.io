@@ -31,15 +31,17 @@ cv:
         position: Vice Researcher
         location: Guangzhou, China
         start_date: 2021
-        end_date: present
-        summary: School of System Science and Engineering. Leading adaptive control design and optimization for novel UAVs.
+        end_date: "present"
+        highlights:
+          - School of System Science and Engineering. Leading adaptive control design and optimization for novel UAVs.
 
       - company: Queen’s University Belfast
         position: Research Fellow
         location: Belfast, UK
         start_date: 2018
         end_date: 2021
-        summary: Developing integrated nacelle-structure design tools for Rolls-Royce.
+        highlights:
+          - Developing integrated nacelle-structure design tools for Rolls-Royce.
 
       - company: Nanjing University of Aeronautics and Astronautics (NUAA)
         position: Post-doctoral Researcher / Lecturer
