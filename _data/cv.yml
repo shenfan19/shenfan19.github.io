@@ -1,24 +1,13 @@
 cv:
   name: Fan Shen
-  label: Vice Researcher
   email: shenfan19@gmail.com
   location: Guangzhou, China
-  image: ""
-  summary: Innovative aerospace engineer with 10+ years of experience in structural analysis, system simulation, and intelligent control development.
 
   social_networks:
     - network: GitHub
       username: <username>
     - network: LinkedIn
       username: <username>
-
-  address:
-    street: Room 504, Building 622, Sun Yat-Sen University
-    city: Guangzhou
-    region: Guangdong
-    postalCode: 510275
-    countryCode: CN
-
   sections:
     Education:
       - institution: Nanjing University of Aeronautics and Astronautics (NUAA)
@@ -42,7 +31,7 @@ cv:
         position: Vice Researcher
         location: Guangzhou, China
         start_date: 2021
-        end_date: Present
+        end_date: present
         summary: School of System Science and Engineering. Leading adaptive control design and optimization for novel UAVs.
 
       - company: Queen’s University Belfast
