@@ -2,6 +2,7 @@
 title: Curriculum Vitae
 subtitleX: Fan Shen
 ---
+
 # Fan Shen
 
 Room 204, Building 747-1, Sun Yat-Sen University, Guangzhou, China, 510275
@@ -37,11 +38,11 @@ Transfer of aerospace system modeling techniques to biomedical and motion scienc
 
 ## Selected Publications
 
-1. (Pre-print) **Shen F**. *Integrating Human Needs, Intelligences and AI Technologies on TSQ-CS*, SSRN, 2023
-2. (Pre-print) **Shen F**. *A United Framework for both Formal, Natural and Social Science*, arXiv, 2021
-3. Wang L. et al., *Structural Topology Optimisation of a Gas Turbine Nacelle*, AEC 2020
-4. **Shen F**. et al., *A tensor-based modelling and simulation method for multibody system*, Engineering Computations, 2017
-5. **Shen F**. et al., *Correction and adjusting for the deformation on solar sail*, CEAS Space Journal, 2016
+1. (Pre-print) **Shen F**. _Integrating Human Needs, Intelligences and AI Technologies on TSQ-CS_, SSRN, 2023
+2. (Pre-print) **Shen F**. _A United Framework for both Formal, Natural and Social Science_, arXiv, 2021
+3. Wang L. et al., _Structural Topology Optimisation of a Gas Turbine Nacelle_, AEC 2020
+4. **Shen F**. et al., _A tensor-based modelling and simulation method for multibody system_, Engineering Computations, 2017
+5. **Shen F**. et al., _Correction and adjusting for the deformation on solar sail_, CEAS Space Journal, 2016
 
 Full publication list available on request or [ORCID](https://orcid.org/0000-0002-8284-6629)
 
@@ -98,9 +99,9 @@ Innovative aerospace engineer with 10+ years of experience in structural analysi
 
 - Aircraft Structural Optimization System – Reduced design iteration time through intelligent algorithm integration
 - Spacecraft Mission Simulation System – Enabled full-mission dynamics and control verification
-- *Structural Topology Optimisation of a Gas Turbine Nacelle*, AEC 2020
-- *Tensor-based simulation method for multibody systems*, Engineering Computations, 2017
-- *Correction and adjusting for the deformation on solar sail*, CEAS Space Journal, 2016
+- _Structural Topology Optimisation of a Gas Turbine Nacelle_, AEC 2020
+- _Tensor-based simulation method for multibody systems_, Engineering Computations, 2017
+- _Correction and adjusting for the deformation on solar sail_, CEAS Space Journal, 2016
 
 ---
 

@@ -4,7 +4,9 @@
       "Bash(git pull:*)",
       "Bash(git fetch:*)",
       "Bash(git push:*)",
-      "Bash(gh api:*)"
+      "Bash(gh api:*)",
+      "Bash(npx prettier:*)",
+      "Bash(npm install:*)"
     ]
   }
 }

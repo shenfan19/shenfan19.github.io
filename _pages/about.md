@@ -30,8 +30,10 @@ latest_posts:
 Innovative aerospace engineer with 10+ years of experience in structural analysis, system simulation, and intelligent control development. I have a proven track record in applying multi-disciplinary modeling and optimization methods to complex engineering problems.
 
 ### Research Interests
+
 - **Modeling, Optimization, and Control of Complex Aerospace Systems**: Structural dynamics, multi-objective optimization, and intelligent control systems. Integration of CAD, FEA, and optimization methods.
 - **Interdisciplinary System Optimization**: Bio-mechanics, human motion dynamics, and complex medical-human system optimization.
 
 ### Professional Experience
+
 Currently, I serve as a **Vice Researcher** at the School of System Science and Engineering, Sun Yat-Sen University, leading adaptive control design and optimization for novel UAVs. Previously, I was a **Research Fellow** at Queen’s University Belfast, developing integrated nacelle-structure design tools for Rolls-Royce.
