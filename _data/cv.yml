@@ -51,13 +51,9 @@ cv:
 
     Skills:
       - name: Engineering
-        level: Specialist
-        icon: fa-solid fa-gear
-        keywords: "Structural Analysis, System Simulation, Finite Element Analysis (FEA), multi-body dynamics"
+        details: "Structural Analysis, System Simulation, Finite Element Analysis (FEA), multi-body dynamics"
       - name: Software
-        level: Specialist
-        icon: fa-solid fa-code
-        keywords: "MATLAB, C++, Python, CAD Integration"
+        details: "MATLAB, C++, Python, CAD Integration"
 
     Languages:
       - name: Chinese
