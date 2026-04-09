@@ -13,3 +13,4 @@ _scripts/*
 _data/citations.yml
 # Ignore Claude Code local settings
 .claude/
+CUSTOMIZE.md

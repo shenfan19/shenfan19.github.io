@@ -57,7 +57,7 @@ Full publication list available on request or [ORCID](https://orcid.org/0000-000
 
 # Fan Shen
 
-Room 504, Building 622, Sun Yat-Sen University, Guangzhou, China, 510275
+Room 410, Building 389, Sun Yat-Sen University, Guangzhou, China, 510275
 +86 13604886845, [shenfan19@gmail.com](mailto: shenfan19@gmail.com), [ORCID](https://orcid.org/0000-0002-8284-6629)
 
 ---
