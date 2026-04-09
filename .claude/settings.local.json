@@ -6,7 +6,9 @@
       "Bash(git push:*)",
       "Bash(gh api:*)",
       "Bash(npx prettier:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(dir C:\\\\green\\\\b_fan_page:*)",
+      "Bash(dir:*)"
     ]
   }
 }
