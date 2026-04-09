@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git pull:*)",
       "Bash(git fetch:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(gh api:*)"
     ]
   }
 }
