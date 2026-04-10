@@ -1,80 +1,41 @@
 ---
 layout: page
-title: Structural optimization for nacelle on civil aircraft
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Structural Topology Optimisation
+description: Topology optimisation of a gas turbine engine and nacelle components
+img: assets/img/Wang et al_4.jpeg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: true
 ---
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+This project presents a novel structural topology optimisation of a whole engine Integrated Finite Element Model (IFEM), predominantly based on medial surface representation. 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+In a complicated engineering system such as a whole gas turbine engine, simply combining optimally designed individual subsystems often does not lead to an optimal assembly. Therefore, it is highly desirable to investigate and optimise the whole engine model during the early design stages.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/Wang et al_0.jpeg" title="Engine Architecture" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    The Integrated Finite Element Model representing the engine core and integration components.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the `<a href="https://getbootstrap.com/docs/4.4/layout/grid/">`Bootstrap Grid`</a>` system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+The IFEM includes not only the engine core but also Engine Integration Components (EICs) such as the inlet, fan cowl, pylon, Thrust Reverser Unit (TRU), plug, and nozzle. By widening the scope of the optimisation to the entire Engine-EIC assembly, we demonstrated that a lower overall whole engine mass can be achieved by exploiting novel load-sharing opportunities.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Wang et al_1.jpeg" title="Topology Optimisation 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Wang et al_4.jpeg" title="Topology Optimisation 2" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/Wang et al_10.jpeg" title="Topology Optimisation 3" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    Key structural components undergoing integrated topological optimization.
+</div>
 
-{% endraw %}
+Through this integrated approach to design and optimisation, EICs can facilitate more efficient load paths and critically contribute to system-level structural functions. Overcoming the limitation of traditional 3D finite element models (which contain millions of DOFs) by utilizing Medial Surface modeling is the cornerstone of generating these rapid and highly actionable system-level optimizations. 
