@@ -387,21 +387,26 @@ ninja.data = [{
           section: "News",},{id: "news-joined-sun-yat-sen-university-as-vice-researcher-at-the-school-of-system-science-and-engineering",
           title: 'Joined Sun Yat-Sen University as Vice Researcher at the School of System Science...',
           description: "",
-          section: "News",},{id: "projects-solar-sail-structual-design",
-          title: 'Solar Sail Structual design',
-          description: "with background image",
+          section: "News",},{id: "projects-solar-sail-deformation-amp-adjustment",
+          title: 'Solar Sail Deformation &amp;amp; Adjustment',
+          description: "Correction and adjusting for the deformation on solar sail",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
-            },},{id: "projects-structural-optimization-for-nacelle-on-civil-aircraft",
-          title: 'Structural optimization for nacelle on civil aircraft',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-structural-topology-optimisation",
+          title: 'Structural Topology Optimisation',
+          description: "Topology optimisation of a gas turbine engine and nacelle components",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project.html";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-general-categorization-of-science",
+          title: 'General Categorization of Science',
+          description: "Visualizing Positions, Boundaries and Directions of Science with a Unified Framework",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project.html";
+            },},{id: "projects-life-matters",
+          title: 'Life Matters',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/4_project.html";
             },},{
         id: 'social-cv',
         title: 'CV',
