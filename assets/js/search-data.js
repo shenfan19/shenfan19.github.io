@@ -18,21 +18,21 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research projects in aerospace systems, structural optimization, and interdisciplinary modeling.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-repositories",
           title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+          description: "GitHub profile and public research code repositories.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/repositories/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "Curriculum vitae of Fan Shen.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -389,7 +389,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-solar-sail-deformation-amp-adjustment",
           title: 'Solar Sail Deformation &amp;amp; Adjustment',
-          description: "Correction and adjusting for the deformation on solar sail",
+          description: "Deformation modeling and trajectory adjustment for flexible solar sail structures",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project.html";
             },},{id: "projects-structural-topology-optimisation",
@@ -404,22 +404,22 @@ ninja.data = [{
               window.location.href = "/projects/3_project.html";
             },},{id: "projects-life-matters",
           title: 'Life Matters',
-          description: "",
+          description: "Interdisciplinary modeling of human movement, embodied skill, and system optimization",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/fan_cv.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
           window.open("mailto:%73%68%65%6E%66%61%6E%31%39@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/shenfan19", "_blank");
         },
       },{
         id: 'social-orcid',
