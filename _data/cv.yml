@@ -2,61 +2,127 @@ cv:
   name: Fan Shen
   email: shenfan19@gmail.com
   location: Guangzhou, China
+  phone: "+86 13604886845"
+  website: https://shenfan19.github.io
+  summary: >
+    Innovative aerospace engineer with 10+ years of experience in structural
+    analysis, system simulation, and intelligent control development. Proven
+    track record in applying multidisciplinary modeling and optimization
+    methods to engineering problems, with strong capability in automation,
+    product iteration, and large-scale simulation.
 
   social_networks:
-    - network: GitHub
-      username: <username>
-    - network: LinkedIn
-      username: <username>
+    - network: ORCID
+      username: 0000-0002-8284-6629
   sections:
-    Education:
-      - institution: Nanjing University of Aeronautics and Astronautics (NUAA)
-        location: Nanjing, China
-        area: Aerospace Engineering
-        studyType: PhD
-        start_date: 2010
-        end_date: 2015
-        highlights:
-          - Focus on structural dynamics and multi-body system simulation.
-
-      - institution: Beijing Institute of Technology (BIT)
-        location: Beijing, China
-        area: Flight Vehicle Design
-        studyType: BS
-        start_date: 2006
-        end_date: 2010
+    Research Interests:
+      - label: Modeling, Optimization, and Control of Complex Aerospace Systems
+        details: >
+          Structural dynamics, multi-objective optimization, and intelligent
+          control systems, integrating CAD, FEA, and optimization methods for
+          high-fidelity modeling, adaptive control, and simulation-based design
+          in aircraft systems.
+      - label: Interdisciplinary System Optimization
+        details: >
+          Transfer of aerospace system modeling techniques to biomedical and
+          motion science applications, including martial arts biomechanics,
+          human motion dynamics, and complex medical-human system optimization.
 
     Experience:
       - company: Sun Yat-Sen University
         position: Vice Researcher
         location: Guangzhou, China
-        start_date: 2021
-        end_date: "present"
+        start_date: 2022
+        end_date: present
         highlights:
-          - School of System Science and Engineering. Leading adaptive control design and optimization for novel UAVs.
+          - School of System Science and Engineering.
+          - Led adaptive control design and optimization for novel UAV systems.
 
-      - company: Queen’s University Belfast
+      - company: Queen's University Belfast
         position: Research Fellow
         location: Belfast, UK
         start_date: 2018
         end_date: 2021
         highlights:
-          - Developing integrated nacelle-structure design tools for Rolls-Royce.
+          - Developed integrated nacelle-structure design tools for Rolls-Royce partners on turbine optimization.
 
-      - company: Nanjing University of Aeronautics and Astronautics (NUAA)
-        position: Post-doctoral Researcher / Lecturer
-        location: Nanjing, China
-        start_date: 2015
-        end_date: 2018
+      - company: Lantian Environmental Engineering Co.
+        position: CFD Engineer, R&D Department
+        location: China
+        start_date: 2010
+        end_date: 2011
+        highlights:
+          - Built CFD models for flow simulations and environmental control system design.
+
+    Education:
+      - institution: Harbin Institute of Technology
+        location: Harbin, China
+        area: Aerospace Science and Technology
+        studyType: PhD
+        start_date: 2012
+        end_date: 2017
+
+      - institution: Harbin Institute of Technology
+        location: Harbin, China
+        area: Solid Mechanics
+        studyType: MEng
+        start_date: 2007
+        end_date: 2009
+
+      - institution: Harbin Institute of Technology
+        location: Harbin, China
+        area: Engineering Mechanics
+        studyType: BEng
+        start_date: 2003
+        end_date: 2007
+
+    Publications:
+      - title: "A United Framework for both Formal, Natural and Social Science"
+        publisher: "Shen F., arXiv"
+        date: 2021
+      - title: "Structural Topology Optimisation of a Gas Turbine Nacelle"
+        publisher: "Wang L. et al., AEC"
+        date: 2020
+      - title: "A tensor-based modelling and simulation method for multibody system"
+        publisher: "Shen F. et al., Engineering Computations"
+        date: 2017
+      - title: "Correction and adjusting for the deformation on solar sail"
+        publisher: "Shen F. et al., CEAS Space Journal"
+        date: 2016
+
+    Projects:
+      - name: Aircraft Structural Optimization System
+        summary: Reduced design iteration time through intelligent algorithm integration.
+      - name: Spacecraft Mission Simulation System
+        summary: Enabled full-mission dynamics and control verification.
 
     Skills:
-      - name: Engineering
-        details: "Structural Analysis, System Simulation, Finite Element Analysis (FEA), multi-body dynamics"
-      - name: Software
-        details: "MATLAB, C++, Python, CAD Integration"
+      - name: CAE Tools
+        keywords:
+          - NX
+          - Hypermesh
+          - Abaqus
+          - Patran/Nastran
+          - ANSYS
+      - name: Programming
+        keywords:
+          - Python
+          - MATLAB
+          - C
+          - simulation automation
+          - control development
+      - name: Engineering Systems
+        keywords:
+          - structural optimization
+          - multibody dynamics
+          - intelligent control
+      - name: R&D Delivery
+        keywords:
+          - simulation-to-prototype workflows
+          - model-based design integration
 
     Languages:
       - name: Chinese
-        summary: "Native"
+        summary: Native
       - name: English
-        summary: "Fluent"
+        summary: Fluent

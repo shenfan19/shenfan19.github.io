@@ -2,15 +2,18 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects in aerospace systems, structural optimization, and interdisciplinary modeling.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
+display_categories: [work]
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
 <div class="projects">
+<p>
+  These projects collect my work on high-fidelity simulation, structural design, and system-level modeling across aerospace and interdisciplinary engineering problems.
+</p>
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
