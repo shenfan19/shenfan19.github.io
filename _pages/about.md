@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Room 204, Building 747-1</p>
+    <p>Room 410, Building 389</p>
     <p>Sun Yat-Sen University</p>
     <p>Guangzhou, China, 510275</p>
 
