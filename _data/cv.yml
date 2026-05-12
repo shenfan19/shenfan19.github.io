@@ -96,31 +96,6 @@ cv:
       - name: Spacecraft Mission Simulation System
         summary: Enabled full-mission dynamics and control verification.
 
-    Skills:
-      - name: CAE Tools
-        keywords:
-          - NX
-          - Hypermesh
-          - Abaqus
-          - Patran/Nastran
-          - ANSYS
-      - name: Programming
-        keywords:
-          - Python
-          - MATLAB
-          - C
-          - simulation automation
-          - control development
-      - name: Engineering Systems
-        keywords:
-          - structural optimization
-          - multibody dynamics
-          - intelligent control
-      - name: R&D Delivery
-        keywords:
-          - simulation-to-prototype workflows
-          - model-based design integration
-
     Languages:
       - name: Chinese
         summary: Native

@@ -16,6 +16,10 @@ let toggleThemeSetting = () => {
 let setThemeSetting = (themeSetting) => {
   localStorage.setItem("theme", themeSetting);
 
+  syncThemeSetting(themeSetting);
+};
+
+let syncThemeSetting = (themeSetting) => {
   document.documentElement.setAttribute("data-theme-setting", themeSetting);
 
   applyTheme();
@@ -91,6 +95,8 @@ let applyTheme = () => {
 };
 
 let setHighlight = (theme) => {
+  if (!document.getElementById("highlight_theme_light") || !document.getElementById("highlight_theme_dark")) return;
+
   if (theme == "dark") {
     document.getElementById("highlight_theme_light").media = "none";
     document.getElementById("highlight_theme_dark").media = "";
@@ -299,6 +305,7 @@ let initTheme = () => {
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {
     const mode_toggle = document.getElementById("light-toggle");
+    if (!mode_toggle) return;
 
     mode_toggle.addEventListener("click", function () {
       toggleThemeSetting();
@@ -308,6 +315,22 @@ let initTheme = () => {
   // Add event listener to the system theme preference change.
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
     applyTheme();
+  });
+
+  window.addEventListener("storage", function (event) {
+    if (event.key == "theme") {
+      syncThemeSetting(determineThemeSetting());
+    }
+  });
+
+  window.addEventListener("pageshow", function () {
+    syncThemeSetting(determineThemeSetting());
+  });
+
+  document.addEventListener("visibilitychange", function () {
+    if (!document.hidden) {
+      syncThemeSetting(determineThemeSetting());
+    }
   });
 };
 

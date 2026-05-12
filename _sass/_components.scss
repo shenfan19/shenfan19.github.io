@@ -169,6 +169,14 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Visitor counter
+
+.visitor-counter {
+  margin-left: 0.5rem;
+  color: var(--global-footer-text-color);
+  white-space: nowrap;
+}
+
 // Social (bottom)
 
 .social {

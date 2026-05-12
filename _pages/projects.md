@@ -1,7 +1,7 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
+title: research
+permalink: /research/
 description: Research projects in aerospace systems, structural optimization, and interdisciplinary modeling.
 nav: true
 nav_order: 3

@@ -3,5 +3,13 @@ github_users:
 
 repo_description_lines_max: 2
 
-github_repos:
+selected_repos:
+  - shenfan19/smart-fold
   - shenfan19/shenfan19.github.io
+
+github_repos:
+  - shenfan19/smart-fold
+  - shenfan19/shenfan19.github.io
+  - shenfan19/obsidian-releases
+  - shenfan19/say.js
+  - shenfan19/TextToSpeech
