@@ -7,15 +7,15 @@
 <!--ts-->
 
 - [Quick Start Guide](#quick-start-guide)
-  - [Step 1: Create Your Repository (1 min)](#step-1-create-your-repository-1-min)
-  - [Step 2: Configure Deployment (1 min)](#step-2-configure-deployment-1-min)
-  - [Step 3: Personalize (2 min)](#step-3-personalize-2-min)
-  - [Step 4: View Your Site (1 min)](#step-4-view-your-site-1-min)
-  - [What's Next?](#whats-next)
-    - [Add Your Content](#add-your-content)
-    - [Customize Appearance](#customize-appearance)
-    - [Learn More](#learn-more)
-    - [Get Help from AI](#get-help-from-ai)
+    - [Step 1: Create Your Repository (1 min)](#step-1-create-your-repository-1-min)
+    - [Step 2: Configure Deployment (1 min)](#step-2-configure-deployment-1-min)
+    - [Step 3: Personalize (2 min)](#step-3-personalize-2-min)
+    - [Step 4: View Your Site (1 min)](#step-4-view-your-site-1-min)
+    - [What's Next?](#whats-next)
+        - [Add Your Content](#add-your-content)
+        - [Customize Appearance](#customize-appearance)
+        - [Learn More](#learn-more)
+        - [Get Help from AI](#get-help-from-ai)
 
 <!--te-->
 
