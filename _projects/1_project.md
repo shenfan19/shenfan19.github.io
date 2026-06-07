@@ -3,7 +3,7 @@ layout: page
 title: Solar Sail Deformation & Adjustment
 description: Deformation modeling and trajectory adjustment for flexible solar sail structures
 img: assets/img/SHEN et al_3.jpeg
-importance: 1
+importance: 4
 category: work
 related_publications: true
 ---

@@ -3,7 +3,7 @@ layout: page
 title: General Categorization of Science
 description: Visualizing Positions, Boundaries and Directions of Science with a Unified Framework
 img: assets/img/b_0.png
-importance: 3
+importance: 2
 category: work
 related_publications: true
 ---

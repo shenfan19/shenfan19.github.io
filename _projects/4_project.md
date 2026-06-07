@@ -3,7 +3,7 @@ layout: page
 title: Life Matters
 description: Interdisciplinary modeling of human movement, embodied skill, and system optimization
 img: assets/img/3.jpg
-importance: 4
+importance: 1
 category: work
 ---
 

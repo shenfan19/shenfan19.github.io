@@ -3,7 +3,7 @@ layout: page
 title: Structural Topology Optimisation
 description: Topology optimisation of a gas turbine engine and nacelle components
 img: assets/img/Wang et al_4.jpeg
-importance: 2
+importance: 3
 category: work
 related_publications: true
 ---
