@@ -36,6 +36,8 @@ Previously, I was a Research Fellow at Queen's University Belfast, where I devel
 - **Aerospace Systems**: Structural dynamics, multi-objective optimization, adaptive control for UAVs, high-fidelity simulation
 - **Interdisciplinary Applications**: Transfer of aerospace modeling techniques to biomechanics, human motion dynamics, and medical-human system optimization
 
+Over the past decade, the boundary of what I consider a "system" has shifted. Early work centered on solar sail deformation and trajectory control (2012), then moved to whole-engine structural topology optimization at Rolls-Royce (2018). More recently, I have turned toward questions about how scientific knowledge itself is organized and connected across disciplines (2023), and am now applying similar modeling and optimization approaches to human movement, embodied skill, and human-centered system design (2025).
+
 ### Education
 
 - **Ph.D.**, Aerospace Science and Technology — Harbin Institute of Technology (2012–2017)
