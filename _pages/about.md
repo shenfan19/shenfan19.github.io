@@ -27,16 +27,14 @@ latest_posts:
   limit: 3
 ---
 
-I am a Vice Researcher at the School of System Science and Engineering, Sun Yat-Sen University, Guangzhou, China. My work focuses on modeling, optimization, and intelligent control of complex aerospace systems, with over 10 years of experience in structural analysis, system simulation, and adaptive control development.
-
-Previously, I was a Research Fellow at Queen's University Belfast, where I developed integrated nacelle-structure design tools in collaboration with Rolls-Royce.
+I am a researcher specializing in high-fidelity modeling, structural optimization, and system dynamics, with over ten years of experience applying these methods across engineering and interdisciplinary domains. Trained in aerospace at Harbin Institute of Technology, I subsequently worked with Rolls-Royce at Queen's University Belfast on whole-engine structural design, and am currently based at Sun Yat-Sen University. My work has progressively moved toward applying engineering modeling frameworks to human-centered systems.
 
 ### Research Interests
 
-- **Aerospace Systems**: Structural dynamics, multi-objective optimization, adaptive control for UAVs, high-fidelity simulation
-- **Interdisciplinary Applications**: Transfer of aerospace modeling techniques to biomechanics, human motion dynamics, and medical-human system optimization
+- **Interdisciplinary Modeling**: Human movement dynamics, embodied skill, biomechanics, and human-centered system optimization — drawing on aerospace modeling and optimization methods
+- **Aerospace Systems**: Structural dynamics, multi-objective optimization, adaptive control, high-fidelity simulation
 
-Over the past decade, the boundary of what I consider a "system" has shifted. Early work centered on solar sail deformation and trajectory control (2012), then moved to whole-engine structural topology optimization at Rolls-Royce (2018). More recently, I have turned toward questions about how scientific knowledge itself is organized and connected across disciplines (2023), and am now applying similar modeling and optimization approaches to human movement, embodied skill, and human-centered system design (2025).
+The methods have stayed constant — structural modeling, optimization, system dynamics — while the domain has shifted: from aerospace structures (2012–2018), to knowledge organization across disciplines (2023), to human movement and human-centered systems (2025).
 
 ### Education
 
