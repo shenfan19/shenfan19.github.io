@@ -8,7 +8,7 @@ category: work
 related_publications: true
 ---
 
-This project presents a novel structural topology optimisation of a whole engine Integrated Finite Element Model (IFEM), predominantly based on medial surface representation. 
+This project presents a novel structural topology optimisation of a whole engine Integrated Finite Element Model (IFEM), predominantly based on medial surface representation.
 
 In a complicated engineering system such as a whole gas turbine engine, simply combining optimally designed individual subsystems often does not lead to an optimal assembly. Therefore, it is highly desirable to investigate and optimise the whole engine model during the early design stages.
 
@@ -38,4 +38,4 @@ The IFEM includes not only the engine core but also Engine Integration Component
     Key structural components undergoing integrated topological optimization.
 </div>
 
-Through this integrated approach to design and optimisation, EICs can facilitate more efficient load paths and critically contribute to system-level structural functions. Overcoming the limitation of traditional 3D finite element models (which contain millions of DOFs) by utilizing Medial Surface modeling is the cornerstone of generating these rapid and highly actionable system-level optimizations. 
+Through this integrated approach to design and optimisation, EICs can facilitate more efficient load paths and critically contribute to system-level structural functions. Overcoming the limitation of traditional 3D finite element models (which contain millions of DOFs) by utilizing Medial Surface modeling is the cornerstone of generating these rapid and highly actionable system-level optimizations.

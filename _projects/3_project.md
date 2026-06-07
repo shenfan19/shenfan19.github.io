@@ -36,6 +36,6 @@ This research proposes a **three-dimensional knowledge map** that incorporates t
     Visual representations of scientific boundaries and interactions.
 </div>
 
-Compared to traditional methods, our proposed knowledge map provides a more standardized foundation—proposing general criteria for scientific labeling and digitization. Crucially, it integrates the fields of natural, social, and formal sciences. By allowing the expression of different scientific methodologies using analogous logical forms across diverse disciplines, the map offers a clear representation of social sciences and clarifies their deep compatibility with the natural sciences. 
+Compared to traditional methods, our proposed knowledge map provides a more standardized foundation—proposing general criteria for scientific labeling and digitization. Crucially, it integrates the fields of natural, social, and formal sciences. By allowing the expression of different scientific methodologies using analogous logical forms across diverse disciplines, the map offers a clear representation of social sciences and clarifies their deep compatibility with the natural sciences.
 
 Ultimately, this unified knowledge map serves as a structural framework for connecting disparate disciplines, fostering interdisciplinary communication and integration, and highlighting the vital role of mathematics as a formal science capable of advancing all research.
