@@ -16,17 +16,18 @@ cv:
       username: 0000-0002-8284-6629
   sections:
     Research Interests:
-      - label: Modeling, Optimization, and Control of Complex Aerospace Systems
-        details: >
-          Structural dynamics, multi-objective optimization, and intelligent
-          control systems, integrating CAD, FEA, and optimization methods for
-          high-fidelity modeling, adaptive control, and simulation-based design
-          in aircraft systems.
       - label: Interdisciplinary System Optimization
         details: >
-          Transfer of aerospace system modeling techniques to biomedical and
-          motion science applications, including martial arts biomechanics,
-          human motion dynamics, and complex medical-human system optimization.
+          Transfer of aerospace structural modeling and optimization methods
+          to human-centered systems, spanning human movement dynamics,
+          embodied skill, biomechanics, and human-centered system
+          optimization.
+      - label: Aerospace Systems
+        details: >
+          Structural dynamics, multi-objective optimization, and intelligent
+          control for aircraft systems, integrating CAD, FEA, and
+          optimization methods for high-fidelity modeling and
+          simulation-based design.
 
     Experience:
       - company: Sun Yat-Sen University

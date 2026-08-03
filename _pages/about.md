@@ -31,8 +31,8 @@ I am a researcher specializing in high-fidelity modeling, structural optimizatio
 
 ### Research Interests
 
-- **Interdisciplinary Modeling**: Human movement dynamics, embodied skill, biomechanics, and human-centered system optimization — drawing on aerospace modeling and optimization methods
-- **Aerospace Systems**: Structural dynamics, multi-objective optimization, adaptive control, high-fidelity simulation
+- **Interdisciplinary System Optimization**: Transfer of aerospace structural modeling and optimization methods to human-centered systems, spanning human movement dynamics, embodied skill, biomechanics, and human-centered system optimization
+- **Aerospace Systems**: Structural dynamics, multi-objective optimization, adaptive control, and high-fidelity simulation for aircraft systems
 
 The methods have stayed constant — structural modeling, optimization, system dynamics — while the domain has shifted: from aerospace structures (2012–2018), to knowledge organization across disciplines (2023), to human movement and human-centered systems (2025).
 
