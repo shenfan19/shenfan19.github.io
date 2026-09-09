@@ -56,7 +56,7 @@ ninja.data = [{
               window.location.href = "/projects/3_project.html";
             },},{id: "projects-life-matters",
           title: 'Life Matters',
-          description: "Interdisciplinary modeling of human movement, embodied skill, and system optimization",
+          description: "An open framework for simulating and optimizing individual-scale health and behavioral decisions",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project.html";
             },},{
