@@ -1,0 +1,16 @@
+github_users:
+  - shenfan19
+
+repo_description_lines_max: 2
+
+selected_repos:
+  - shenfan19/task-flow
+  - shenfan19/smart-fold
+  - shenfan19/shenfan19.github.io
+
+github_repos:
+  - shenfan19/task-flow
+  - shenfan19/smart-fold
+  - shenfan19/shenfan19.github.io
+  - shenfan19/say.js
+  - shenfan19/TextToSpeech
