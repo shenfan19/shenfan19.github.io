@@ -1,0 +1,104 @@
+cv:
+  name: Fan Shen
+  email: shenfan19@gmail.com
+  location: Guangzhou, China
+  phone: "+86 13604886845"
+  website: https://shenfan19.github.io
+  summary: >
+    Innovative aerospace engineer with 10+ years of experience in structural
+    analysis, system simulation, and intelligent control development. Proven
+    track record in applying multidisciplinary modeling and optimization
+    methods to engineering problems, with strong capability in automation,
+    product iteration, and large-scale simulation.
+
+  social_networks:
+    - network: ORCID
+      username: 0000-0002-8284-6629
+  sections:
+    Research Interests:
+      - label: Interdisciplinary System Optimization
+        details: >
+          Transfer of aerospace structural modeling and optimization methods
+          to human-centered systems, spanning human movement dynamics,
+          embodied skill, biomechanics, and human-centered system
+          optimization.
+      - label: Aerospace Systems
+        details: >
+          Structural dynamics, multi-objective optimization, and intelligent
+          control for aircraft systems, integrating CAD, FEA, and
+          optimization methods for high-fidelity modeling and
+          simulation-based design.
+
+    Experience:
+      - company: Sun Yat-Sen University
+        position: Vice Researcher
+        location: Guangzhou, China
+        start_date: 2022
+        end_date: present
+        highlights:
+          - School of System Science and Engineering.
+          - Led adaptive control design and optimization for novel UAV systems.
+
+      - company: Queen's University Belfast
+        position: Research Fellow
+        location: Belfast, UK
+        start_date: 2018
+        end_date: 2021
+        highlights:
+          - Developed integrated nacelle-structure design tools for Rolls-Royce partners on turbine optimization.
+
+      - company: Lantian Environmental Engineering Co.
+        position: CFD Engineer, R&D Department
+        location: China
+        start_date: 2010
+        end_date: 2011
+        highlights:
+          - Built CFD models for flow simulations and environmental control system design.
+
+    Education:
+      - institution: Harbin Institute of Technology
+        location: Harbin, China
+        area: Aerospace Science and Technology
+        studyType: PhD
+        start_date: 2012
+        end_date: 2017
+
+      - institution: Harbin Institute of Technology
+        location: Harbin, China
+        area: Solid Mechanics
+        studyType: MEng
+        start_date: 2007
+        end_date: 2009
+
+      - institution: Harbin Institute of Technology
+        location: Harbin, China
+        area: Engineering Mechanics
+        studyType: BEng
+        start_date: 2003
+        end_date: 2007
+
+    Publications:
+      - title: "A United Framework for both Formal, Natural and Social Science"
+        publisher: "Shen F., arXiv"
+        date: 2021
+      - title: "Structural Topology Optimisation of a Gas Turbine Nacelle"
+        publisher: "Wang L. et al., AEC"
+        date: 2020
+      - title: "A tensor-based modelling and simulation method for multibody system"
+        publisher: "Shen F. et al., Engineering Computations"
+        date: 2017
+      - title: "Correction and adjusting for the deformation on solar sail"
+        publisher: "Shen F. et al., CEAS Space Journal"
+        date: 2016
+
+    Projects:
+      - name: Aircraft Structural Optimization System
+        summary: Reduced design iteration time through intelligent algorithm integration.
+      - name: Spacecraft Mission Simulation System
+        summary: Enabled full-mission dynamics and control verification.
+
+    Languages:
+      - name: Chinese
+        summary: Native
+      - name: English
+        summary: Fluent
