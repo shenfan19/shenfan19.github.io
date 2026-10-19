@@ -88,13 +88,13 @@
   <a href="#example">An example</a>
   <a href="#read-run">Read and run</a>
   <a href="#optimize">Optimize</a>
-  <a href="#build">Build and compose</a>
+  <a href="#build">Find, build and compose</a>
   <a href="#motion">In motion</a>
   <a href="#together">How it fits together</a>
   <a href="#status">Status</a>
 </nav>
 
-<p>Published findings about health and behavior rarely become something that can be run, compared or combined. Life Matters (LM) is an attempt to change that. A model is a plain YAML file that states its variables, equations, a simulation setup and, optionally, an optimization problem, and each parameter records the study it came from, or is marked as lacking one. The Reference Engine runs the models, searches for good regimens across several objectives, and lets models from different fields work together in one simulation.</p>
+<p>Published findings about health and behavior rarely become something that can be run, compared or combined, and as they spread they tend to lose the dose, population and duration they were found under. Life Matters (LM) is an attempt to let findings travel together with the conditions under which they hold. A model is a plain YAML file that states its variables, equations, a simulation setup and, optionally, an optimization problem, and each parameter records the study it came from, or is marked as lacking one. The Reference Engine runs the models, searches for good regimens across several objectives, and lets models from different fields work together in one simulation. Every number traces to its source, so each step can be checked.</p>
 
 <p class="note">LM is an aid for analysis. It shows what a set of published findings implies and how they can be put to work together. It does not give medical advice. Review of the models is still limited in coverage, and the models shown here serve as demonstrations of the interface.</p>
 
@@ -105,64 +105,54 @@
 <h2 id="read-run">Read and run</h2>
 
 <figure>
-  <a href="img/overview.webp"><img src="img/overview.webp" alt="The model library on the left and the description page of a CKD model: problem, method, result and limitations." width="1600" height="900" loading="lazy"></a>
-  <figcaption><b>Read a model.</b> The library holds more than a hundred models across medicine, fitness, nutrition and psychology. A model page states the problem, the method, the result and the limitations, together with the review status of the model.</figcaption>
+  <a href="img/overview.webp"><img src="img/overview.webp" alt="The model library on the left and the description page of a CKD model: problem, method, result and limitations, with the review mark boxed." width="1600" height="900" loading="lazy"></a>
+  <figcaption><b>Read a model.</b> Each model is a runnable paper: the problem, the method, the result and the limits on one page, with how far it has been reviewed in plain view.</figcaption>
 </figure>
 
 <figure>
-  <a href="img/inside-model.webp"><img src="img/inside-model.webp" alt="The overview page of the CKD model with its variable table and equation table." width="1600" height="1330" loading="lazy"></a>
-  <figcaption><b>Look inside.</b> The variable table gives each variable a type, an initial value, a unit and a source, and the equation table gives each update as a plain expression with its source. Each parameter carries its source, or a TODO:SOURCE mark where it has none.</figcaption>
-</figure>
-
-<figure>
-  <a href="img/references.webp"><img src="img/references.webp" alt="The references section of the CKD model, each study beside a note on what it supports." width="1600" height="1100" loading="lazy"></a>
-  <figcaption><b>Every source is accounted for.</b> The references section lists each study beside a note on what it supports, which parameter it calibrates, and where the model does not follow it. A parameter with no source is marked TODO:SOURCE and not left blank, and a replaced citation keeps the reason for the change. This is what makes a model checkable by someone who knows the field.</figcaption>
+  <a href="img/references.webp"><img src="img/references.webp" alt="The references section of the CKD model, each study beside a note on what it supports, with two entries boxed." width="1600" height="1100" loading="lazy"></a>
+  <figcaption><b>Every number can be checked.</b> Each parameter points to the study it came from, and where there is none it is marked, not left blank. A reader who knows the field can check the model without guessing.</figcaption>
 </figure>
 
 <figure>
   <a href="img/simulation.webp"><img src="img/simulation.webp" alt="Three training plans compared on fitness, fatigue and performance curves." width="1600" height="900" loading="lazy"></a>
-  <figcaption><b>Run a plan.</b> Inputs are scheduled in time, several plans run side by side, and Monte Carlo repeats give a sense of uncertainty. Here a fitness and fatigue model compares a baseline plan, a maintenance plan and a high load plan with no rest day.</figcaption>
+  <figcaption><b>See the consequences.</b> A plan becomes a curve over time, with several plans side by side and the uncertainty shown, so a finding stated as an effect size turns into something you can look at.</figcaption>
 </figure>
 
 <h2 id="optimize">Optimize</h2>
 
-<p>This is the core of the engine. A model can carry an optimization problem next to its simulation: which inputs may be adjusted and within what range, which outcomes to pursue, and which limits must hold. The engine searches for regimens that balance the objectives and returns the whole set of trade-offs.</p>
+<p>Most hard choices in life are not a search for one best answer but several goals pulling against each other. LM writes the pull as a structure that runs, shows what it costs to favor one goal over another, and leaves the order to the person who chooses.</p>
 
 <figure>
-  <a href="img/optimization-setup.webp"><img src="img/optimization-setup.webp" alt="The optimizer setup of the CKD model: decision variables with ranges, three objectives, two constraints and the Pareto front." width="1600" height="1150" loading="lazy"></a>
-  <figcaption><b>State the problem.</b> The CKD model searches the protein intake of each meal within a range, pursues muscle mass, kidney function and a composite score together, and holds blood urea nitrogen and kidney function within limits.</figcaption>
-</figure>
-
-<figure>
-  <a href="img/optimization.webp"><img src="img/optimization.webp" alt="A Pareto front over kidney function and muscle mass for the CKD model." width="1600" height="900" loading="lazy"></a>
-  <figcaption><b>See the trade-off.</b> With several objectives, the result is a Pareto front rather than a single answer. Each point is a regimen that can be inspected and sent back to the simulation, and the regrouping panel changes the axes and the grouping to show how one decision variable shifts the balance.</figcaption>
+  <a href="img/optimization-setup.webp"><img src="img/optimization-setup.webp" alt="The optimizer setup of the CKD model, with the Pareto front boxed." width="1600" height="1150" loading="lazy"></a>
+  <figcaption><b>State the problem, see the trade-off.</b> What can be adjusted, what to pursue and which limits must hold go in, and a whole front of trade-offs comes out rather than a single answer. In the CKD model, protein intake pulls kidney function and muscle mass in different directions.</figcaption>
 </figure>
 
 <figure>
   <a href="img/optimization-plans.webp"><img src="img/optimization-plans.webp" alt="Six plans of the CKD model compared on kidney function, muscle mass and blood urea nitrogen." width="1600" height="1150" loading="lazy"></a>
-  <figcaption><b>Compare with clinical practice.</b> Plans taken from the front go back into the full model, run for a year in hourly steps, and appear next to clinical-style plans. Here three clinical plans are compared with three optimized ones, and the thin lines are Monte Carlo repeats.</figcaption>
+  <figcaption><b>Compare with clinical practice.</b> Plans from the front run beside clinical-style plans on the same curves, so a discussion has a shared picture.</figcaption>
 </figure>
 
-<h2 id="build">Build, inspect and compose</h2>
+<h2 id="build">Find, build and compose</h2>
 
 <figure>
-  <a href="img/builder.webp"><img src="img/builder.webp" alt="The model library editor with the variables of the CKD model." width="1600" height="900" loading="lazy"></a>
-  <figcaption><b>Build a model.</b> The editor shows a model in sections, with its variables, equations and simulation settings, and can validate the file. The online demo is read only, and editing is available in the local version.</figcaption>
-</figure>
-
-<figure>
-  <a href="img/ve-graph.webp"><img src="img/ve-graph.webp" alt="A graph of the variables and equations of the CKD model." width="1600" height="900" loading="lazy"></a>
-  <figcaption><b>See the structure.</b> Variables are circles and equations are squares. An arrow runs from each input to the equation that reads it and from the equation to the variable it updates. Nodes can be dragged and the layout can be switched to a layered view. In the CKD model, four mechanisms share one set of decision variables.</figcaption>
+  <a href="img/body-map.webp"><img src="img/body-map.webp" alt="A paper-doll body with the organs and everyday inputs that twelve ticked models act on, and the model tree filtered to them." width="1600" height="900" loading="lazy"></a>
+  <figcaption><b>Find what is there.</b> Start from an organ or a part of everyday life and see which models in the library point to it. It answers what the library holds, not what the outcome would be.</figcaption>
 </figure>
 
 <figure>
-  <a href="img/compose-coupling.webp"><img src="img/compose-coupling.webp" alt="Three models joined through the variables they share." width="1600" height="900" loading="lazy"></a>
-  <figcaption><b>Compose models.</b> Tick models in the library and the variables they share join them. An arrow from a model to a variable means the model writes it, and an arrow the other way means it reads it. This says which models can be connected, not what the combined model predicts.</figcaption>
+  <a href="img/builder.webp"><img src="img/builder.webp" alt="The model library editor with three models side by side." width="1600" height="900" loading="lazy"></a>
+  <figcaption><b>Read and edit a model.</b> Every part of a model is laid out in plain sections, with several models side by side. The online demo is read only, and editing is available in the local version.</figcaption>
+</figure>
+
+<figure>
+  <a href="img/ve-pair.webp"><img src="img/ve-pair.webp" alt="The variables and equations of one model as a graph, and of three models together with shared variables marked by dashed rings." width="1824" height="646" loading="lazy"></a>
+  <figcaption><b>See the structure.</b> Variables and equations are laid out as a graph that shows what depends on what. Across several models a shared variable becomes one node, which shows where they meet.</figcaption>
 </figure>
 
 <figure>
   <a href="img/compose-conflict.webp"><img src="img/compose-conflict.webp" alt="Three sports models that write the same variables, flagged in red." width="1600" height="900" loading="lazy"></a>
-  <figcaption><b>Check before merging.</b> A variable written by more than one model is flagged in red, because a merge would update it more than once per step. Differences in units, types and values are listed too, and one button merges the ticked models into a new model file after showing what the merge will do.</figcaption>
+  <figcaption><b>Check before joining models.</b> Models that share variables can be joined, and a clash, such as two models updating the same variable, is flagged before a merge. This says which models can connect, not what the combination predicts.</figcaption>
 </figure>
 
 <h2 id="motion">In motion</h2>
@@ -171,20 +161,20 @@
   <video controls muted loop playsinline preload="metadata" poster="video/compose.jpg" width="1280" height="720" data-autoplay>
     <source src="video/compose.webm" type="video/webm">
   </video>
-  <figcaption><b>Composing models.</b> Choose a ready-made combination from the sample list, drag a node, then switch to a combination where models write the same variables and open the merge dialog.</figcaption>
+  <figcaption><b>Composing models.</b> A ready-made combination first, then one where models write the same variables.</figcaption>
 </figure>
 
 <figure>
   <video controls muted loop playsinline preload="metadata" poster="video/ve-graph.jpg" width="1280" height="720" data-autoplay>
     <source src="video/ve-graph.webm" type="video/webm">
   </video>
-  <figcaption><b>The structure graph.</b> The CKD model, with nodes dragged around and the layout switched between the dynamic and the layered view.</figcaption>
+  <figcaption><b>The structure graph.</b> Nodes dragged around, and the layout switched between two views.</figcaption>
 </figure>
 
 <h2 id="together">How it fits together</h2>
 <ul>
   <li><a href="https://github.com/shenfan19/life-matters-models">Model library</a>. YAML models, licensed CC BY 4.0, each with literature references, a review status and ratings.</li>
-  <li><a href="https://github.com/shenfan19/life-matters-reference-engine">Reference Engine</a>. A Python backend with a React interface and a command line, for simulation, optimization and model composition. The interface is extended through plugins, and the structure and composition views above are plugins. An online demo is linked from the README of the repository.</li>
+  <li><a href="https://github.com/shenfan19/life-matters-reference-engine">Reference Engine</a>. A Python backend with a React interface and a command line, for simulation, optimization and model composition. The interface is extended through plugins, and the structure graph, the Body Map and the composition view above are plugins. Every model and every tab has its own link, and a button in the toolbar copies it, so a discussion can point at the same place. An online demo is linked from the README of the repository.</li>
 </ul>
 
 <h2 id="status">Status</h2>
@@ -193,7 +183,7 @@
 
 <p>The code of the Reference Engine was written with AI coding assistance for code generation, automated testing and documentation. Citation details are in <a href="https://github.com/shenfan19/life-matters-reference-engine/blob/main/CITATION.cff">CITATION.cff</a>.</p>
 
-<footer>Last updated 2026-10-13</footer>
+<footer>Last updated 2026-10-19</footer>
 
 </main>
 <script>
