@@ -4,73 +4,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fan Shen</title>
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="icon" href="favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="description" content="Fan Shen, Associate Researcher at Sun Yat-sen University. Dynamical systems modelling and simulation, applied to individual health and behavioural decisions.">
-<style>
-  :root {
-    --text: #1f2328;
-    --muted: #59636e;
-    --link: #0b57d0;
-    --rule: #d8dee4;
-    --bg: #ffffff;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text: #e6e6e6;
-      --muted: #9aa4ae;
-      --link: #9ec3fb;
-      --rule: #30363d;
-      --bg: #111315;
-    }
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    background: var(--bg);
-    color: var(--text);
-    font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  }
-  main { max-width: 760px; margin: 0 auto; padding: 40px 16px 56px; }
-  a { color: var(--link); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  header { display: flex; gap: 24px; align-items: flex-start; }
-  header .intro { flex: 1; min-width: 0; }
-  header img { width: 112px; height: auto; border-radius: 4px; flex: none; }
-  h1 { font-size: 24px; font-weight: 600; margin: 0 0 4px; }
-  .meta { color: var(--muted); margin: 0 0 10px; }
-  .links { margin: 0 0 14px; }
-  .links a + a::before { content: "·"; color: var(--muted); margin: 0 8px; }
-  h2 {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--text);
-    border-bottom: 2px solid var(--text);
-    padding-bottom: 6px;
-    margin: 42px 0 14px;
-  }
-  p { margin: 0 0 10px; }
-  ul { margin: 0; padding-left: 18px; }
-  li { margin: 0 0 6px; }
-  .pubs li { margin-bottom: 7px; }
-  .pubs b { font-weight: 600; }
-  .items { list-style: none; padding: 0; }
-  .items li { margin-bottom: 6px; }
-  .items .name { font-weight: 600; }
-  .items .sub { list-style: none; padding-left: 18px; margin: 6px 0 2px; }
-  table { border-collapse: collapse; width: 100%; }
-  td { padding: 2px 0 6px; vertical-align: top; }
-  td.years { width: 110px; color: var(--muted); white-space: nowrap; }
-  footer { margin-top: 36px; color: var(--muted); font-size: 13px; }
-  @media (max-width: 560px) {
-    header { flex-direction: column-reverse; }
-    td.years { width: 90px; }
-  }
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main>
+
+<nav class="top">
+  <a class="here" href="./">Home</a><a href="projects/">Projects</a><a href="publications/">Publications</a>
+</nav>
 
 <header>
   <div class="intro">
@@ -85,44 +27,34 @@
   <img src="photo.jpg" alt="Fan Shen">
 </header>
 
-<h2>Research</h2>
-<ul class="items">
-  <li><a class="name" href="life-matters/">Life Matters<span lang="zh-Hant">（大德曰生）</span></a>. An open framework that turns published health and behavioural findings into runnable, composable models for individual decisions. It has two parts.
-    <ul class="sub">
-      <li><a class="name" href="https://github.com/shenfan19/life-matters-models">Model library</a>. Models as plain files that name their sources, one per published finding or mechanism.</li>
-      <li><a class="name" href="https://github.com/shenfan19/life-matters-reference-engine">Reference Engine</a>. The engine that runs the models and composes them for one person.</li>
-    </ul>
-  </li>
-  <li><span class="name">Structural Topology Optimisation</span>. Topology optimisation of gas turbine engine and nacelle components with Rolls-Royce partners.</li>
-  <li><span class="name">Solar Sail Deformation and Adjustment</span>. Deformation modelling and trajectory adjustment for flexible solar sail structures.</li>
-</ul>
+<h2>Selected projects</h2>
 
-<h2>Experience</h2>
-<table>
-  <tr><td class="years">2022 to now</td><td>Associate Researcher, Sun Yat-sen University, Guangzhou. Life Matters.</td></tr>
-  <tr><td class="years">2018 to 2021</td><td>Research Fellow, Queen's University Belfast, UK. Whole-engine structural design with Rolls-Royce.</td></tr>
-  <tr><td class="years">2010 to 2011</td><td>CFD Engineer, Lantian Environmental Engineering Co., China</td></tr>
-</table>
+<div class="proj">
+  <h3>Life Matters</h3>
+  <p>An open framework that turns published health and behavioural findings into runnable, composable models. Each model names its sources, and an engine simulates the models and searches for the trade-offs when goals conflict.</p>
+  <div class="go">
+    <a href="https://lifematters.dev/"><img src="projects/icons/lm.svg" alt="">Life Matters<span class="zh">大德曰生</span></a>
+  </div>
+</div>
 
-<h2>Education</h2>
-<table>
-  <tr><td class="years">2012 to 2017</td><td>Ph.D., Aerospace Science and Technology, Harbin Institute of Technology</td></tr>
-  <tr><td class="years">2007 to 2009</td><td>M.Eng., Solid Mechanics, Harbin Institute of Technology</td></tr>
-  <tr><td class="years">2003 to 2007</td><td>B.Eng., Engineering Mechanics, Harbin Institute of Technology</td></tr>
-</table>
+<div class="proj">
+  <h3>Built on Life Matters</h3>
+  <p>Two browser games whose characters live by the Life Matters models: one about looking after the people at home, one about a time-travel agency that sends its staff to turning points in history. For entertainment only.</p>
+  <div class="go">
+    <a href="https://careforyou.dev"><img src="projects/icons/care.svg" alt="">Care for You<span class="zh">宜室宜家</span></a>
+    <a href="https://www.pastyet.com/"><img src="projects/icons/past.svg" alt="">The Past Is Yet to Come<span class="zh">白露未晞</span></a>
+  </div>
+</div>
 
-<h2>Publications</h2>
-<ul class="pubs">
-{{PUBS}}
-</ul>
+<div class="proj">
+  <h3>Solar sails</h3>
+  <p>Dynamics and control of flexible solar sails, from my doctoral work to current papers with Jiafu Liu. The orbital physics is also playable as a racing game.</p>
+  <div class="go">
+    <a href="https://shenfan19.github.io/solar-sail-race/"><img src="projects/icons/sail.svg" alt="">Solar Sail Race<span class="zh">谁谓河广</span></a>
+  </div>
+</div>
 
-<h2>Open-source software</h2>
-<ul class="items">
-  <li><a class="name" href="https://careforyou.dev">Care for You<span lang="zh-Hant">（宜室宜家）</span></a>. A small browser game about looking after the people at home, built as a hands-on front end for the Life Matters models. It currently runs on simple illustrative data.</li>
-  <li><a class="name" href="https://www.pastyet.com/">The Past Is Yet to Come<span lang="zh-Hant">（白露未晞）</span></a>. A narrative browser game in which you run a time-travel agency, send employees to turning points in history and read their reports to see what changed.</li>
-  <li><a class="name" href="https://github.com/shenfan19/task-flow">Tasks Flowchart</a>. An Obsidian plugin that draws task dependencies as a flowchart, for projects where the order of work matters.</li>
-  <li><a class="name" href="https://github.com/shenfan19/smart-fold">Smart Fold</a>. An Obsidian plugin that folds a long note into its outline with one click.</li>
-</ul>
+<p class="more"><a href="projects/">All projects →</a></p>
 
 <footer>Last updated {{UPDATED}}</footer>
 

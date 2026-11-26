@@ -1,8 +1,9 @@
-"""Build index.html from template.html and papers.bib.
+"""Build the site pages from the templates.
 
-Run `python build.py` after editing template.html or papers.bib, then commit
-index.html. Every entry in papers.bib is listed, one line each, newest
-first.
+index.html from template.html, projects/index.html from template_projects.html,
+publications/index.html from template_publications.html and papers.bib.
+Run `python build.py` after editing a template or papers.bib, then commit the generated pages. Every entry in papers.bib is
+listed, one line each, newest first.
 """
 import html
 import re
@@ -76,10 +77,14 @@ def publications(path):
 
 def main():
     here = Path(__file__).parent
-    page = (here / 'template.html').read_text(encoding='utf-8')
-    page = page.replace('{{PUBS}}', publications(here / 'papers.bib'))
-    page = page.replace('{{UPDATED}}', datetime.date.today().strftime('%B %Y'))
-    (here / 'index.html').write_text(page, encoding='utf-8')
+    updated = datetime.date.today().strftime('%B %Y')
+    pubs = publications(here / 'papers.bib')
+    for src, out in [('template.html', 'index.html'),
+                     ('template_projects.html', 'projects/index.html'),
+                     ('template_publications.html', 'publications/index.html')]:
+        page = (here / src).read_text(encoding='utf-8')
+        page = page.replace('{{PUBS}}', pubs).replace('{{UPDATED}}', updated)
+        (here / out).write_text(page, encoding='utf-8')
 
 
 main()
